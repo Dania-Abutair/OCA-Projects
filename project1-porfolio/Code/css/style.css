@@ -1,0 +1,252 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .bg {
+    /* The image used */
+   background:white;
+
+    /*background-image: url("../image/AI-Programming.png"); rgba(10, 140, 43, 0.77), rgba(170, 117, 174, 0.66))*/
+   /* background:linear-gradient(0deg, rgba(10, 140, 43, 0.77), rgba(255, 0, 150, 0.3)), url(../image/AI-Programming.png);*/
+   background:linear-gradient(178deg, rgba(26, 10, 140, 0.77),rgba(170, 117, 174, 0.66)), url(../image/AI-Programming.png);
+  background-size:cover;
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sz160 i{
+    width: 160px;
+  }
+  .btn{
+      margin: 10px !important;
+    
+      font-size: 30px;
+      background-color: #665272;
+      border-color: #290d3a;
+      
+  }
+.footerr{
+    width: 100%;
+    height: 200px;
+    background-color: #695275;
+    color: white ;
+ 
+    font-size:30px !important;
+}
+.footerr a span{
+    font-size: 20px;
+    color: white;
+}
+
+.w30{
+width:30% !important; 
+padding: 6px;
+text-align: center;
+}
+.fnt18{
+font-size: 40px;
+color: white;
+padding-right: 20px;
+
+}
+/*.fnt18 a {
+    color: white;
+
+}*/
+.fnt18 a:hover{
+    color: black;
+    
+}
+
+/* .fnt18 a:active{
+     color: coral;
+ } */ 
+
+a i:hover{
+    font-size:44px;
+    text-shadow: 2px 5px black ;
+    color:#4881bf;
+}
+
+#portfolio  {
+    
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40vh !important;
+    
+}
+#portfolio  p{
+    padding-left: 40rem;
+    }
+h1 span{
+font-size: 65px;
+padding-left: 2rem;
+}
+
+#name {
+    
+    text-align: center;
+    font-size: 50px;
+
+}
+#contact{
+    
+    text-align: center;
+    font-size: 40px;
+}
+.InterPG
+{
+    background-color: #bdc3c4a1;
+    height: 100%;
+}
+.pl{
+    padding-left: 25px;
+}
+.txtl{
+    text-align: left;
+}
+.w100b{
+    
+    display: inline;
+}
+.w100{
+    width: 100%;
+    text-align: center;
+   padding-top:100px;
+    
+}
+
+.w10{
+    width:10%;
+}
+.w25{
+    width:25%;
+}
+.w50{
+    width: 35%;
+    
+
+}
+
+.w60{
+    width: 60%;
+    text-align: left !important;
+    float: right;
+    
+}
+
+.w40{
+    width: 50%;
+    float: left;
+    margin-left:10px !important;
+
+}
+.BB{
+    border:  dotted #695275 ;
+    
+}
+ .clear{
+     clear: both;
+     padding-top: 100px;
+ }
+.glyphicon { margin-right:5px;}
+.rating .glyphicon {font-size: 32px;}
+.rating-num { margin-top:0px;font-size: 154px; }
+.progress { margin-bottom: 5px; font-size: 1.1rem !important; height: 88%;}
+.progress-bar { text-align: left; }
+.rating-desc .col-md-3 {padding-right: 0px; line-height: 35px; padding-top: 1.1rem;}
+.sr-only { margin-left: 5px;overflow: visible;clip: auto; }
+ 
+
+
+.moh{
+    float: left;
+}
+
+
+.project2{
+    clear: both;
+    background-color: black;
+    padding-top: 2px;
+
+}
+
+*{
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  
+  
+.warpper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab{
+  cursor: pointer;
+  padding:10px 20px;
+  margin:0px 2px;
+  background:#665272;
+  display:inline-block;
+  color:#fff;
+  border-radius:3px 3px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+.panels{
+  background:#fffffff6;
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:200px;
+  width:80%;
+    border-radius:3px;
+  overflow:hidden;
+ 
+  
+}
+.panel{
+  display:none;
+  animation: fadein .8s;
+  height: 800px;
+ 
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel
+{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab
+
+{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+  
+  
